@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F3042D6F1E44F98E00F9F870"
-               BuildableName = "test.app"
-               BlueprintName = "test"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "Higher Or Lower.app"
+               BlueprintName = "Higher Or Lower"
+               ReferencedContainer = "container:Higher Or Lower.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3042D6F1E44F98E00F9F870"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "Higher Or Lower.app"
+            BlueprintName = "Higher Or Lower"
+            ReferencedContainer = "container:Higher Or Lower.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3042D6F1E44F98E00F9F870"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "Higher Or Lower.app"
+            BlueprintName = "Higher Or Lower"
+            ReferencedContainer = "container:Higher Or Lower.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3042D6F1E44F98E00F9F870"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "Higher Or Lower.app"
+            BlueprintName = "Higher Or Lower"
+            ReferencedContainer = "container:Higher Or Lower.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

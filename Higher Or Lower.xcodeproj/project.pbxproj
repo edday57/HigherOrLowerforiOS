@@ -12,16 +12,22 @@
 		F3042D791E44F98E00F9F870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3042D771E44F98E00F9F870 /* Main.storyboard */; };
 		F3042D7B1E44F98E00F9F870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3042D7A1E44F98E00F9F870 /* Assets.xcassets */; };
 		F3042D7E1E44F98E00F9F870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3042D7C1E44F98E00F9F870 /* LaunchScreen.storyboard */; };
+		F3042D861E44F9D900F9F870 /* KDCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3042D851E44F9D900F9F870 /* KDCircular.swift */; };
+		F3042D881E44FDDC00F9F870 /* TYPOGRAPH PRO Extra Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3042D871E44FDDC00F9F870 /* TYPOGRAPH PRO Extra Bold.ttf */; };
+		F3042D8A1E44FDE600F9F870 /* theboldfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3042D891E44FDE600F9F870 /* theboldfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3042D701E44F98E00F9F870 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3042D701E44F98E00F9F870 /* Higher Or Lower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Higher Or Lower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3042D731E44F98E00F9F870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3042D751E44F98E00F9F870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3042D781E44F98E00F9F870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3042D7A1E44F98E00F9F870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3042D7D1E44F98E00F9F870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3042D7F1E44F98E00F9F870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3042D851E44F9D900F9F870 /* KDCircular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDCircular.swift; path = ../KDCircular.swift; sourceTree = "<group>"; };
+		F3042D871E44FDDC00F9F870 /* TYPOGRAPH PRO Extra Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TYPOGRAPH PRO Extra Bold.ttf"; sourceTree = "<group>"; };
+		F3042D891E44FDE600F9F870 /* theboldfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theboldfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		F3042D671E44F98E00F9F870 = {
 			isa = PBXGroup;
 			children = (
-				F3042D721E44F98E00F9F870 /* test */,
+				F3042D721E44F98E00F9F870 /* Higher Or Lower */,
 				F3042D711E44F98E00F9F870 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,34 @@
 		F3042D711E44F98E00F9F870 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3042D701E44F98E00F9F870 /* test.app */,
+				F3042D701E44F98E00F9F870 /* Higher Or Lower.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3042D721E44F98E00F9F870 /* test */ = {
+		F3042D721E44F98E00F9F870 /* Higher Or Lower */ = {
 			isa = PBXGroup;
 			children = (
+				F3042D851E44F9D900F9F870 /* KDCircular.swift */,
 				F3042D731E44F98E00F9F870 /* AppDelegate.swift */,
 				F3042D751E44F98E00F9F870 /* ViewController.swift */,
 				F3042D771E44F98E00F9F870 /* Main.storyboard */,
 				F3042D7A1E44F98E00F9F870 /* Assets.xcassets */,
 				F3042D7C1E44F98E00F9F870 /* LaunchScreen.storyboard */,
 				F3042D7F1E44F98E00F9F870 /* Info.plist */,
+				F3042D891E44FDE600F9F870 /* theboldfont.ttf */,
+				F3042D871E44FDDC00F9F870 /* TYPOGRAPH PRO Extra Bold.ttf */,
 			);
+			name = "Higher Or Lower";
 			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3042D6F1E44F98E00F9F870 /* test */ = {
+		F3042D6F1E44F98E00F9F870 /* Higher Or Lower */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3042D821E44F98E00F9F870 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = F3042D821E44F98E00F9F870 /* Build configuration list for PBXNativeTarget "Higher Or Lower" */;
 			buildPhases = (
 				F3042D6C1E44F98E00F9F870 /* Sources */,
 				F3042D6D1E44F98E00F9F870 /* Frameworks */,
@@ -79,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = "Higher Or Lower";
 			productName = test;
-			productReference = F3042D701E44F98E00F9F870 /* test.app */;
+			productReference = F3042D701E44F98E00F9F870 /* Higher Or Lower.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3042D6B1E44F98E00F9F870 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = F3042D6B1E44F98E00F9F870 /* Build configuration list for PBXProject "Higher Or Lower" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3042D6F1E44F98E00F9F870 /* test */,
+				F3042D6F1E44F98E00F9F870 /* Higher Or Lower */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3042D881E44FDDC00F9F870 /* TYPOGRAPH PRO Extra Bold.ttf in Resources */,
 				F3042D7E1E44F98E00F9F870 /* LaunchScreen.storyboard in Resources */,
 				F3042D7B1E44F98E00F9F870 /* Assets.xcassets in Resources */,
 				F3042D791E44F98E00F9F870 /* Main.storyboard in Resources */,
+				F3042D8A1E44FDE600F9F870 /* theboldfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3042D761E44F98E00F9F870 /* ViewController.swift in Sources */,
+				F3042D861E44F9D900F9F870 /* KDCircular.swift in Sources */,
 				F3042D741E44F98E00F9F870 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,10 +272,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4EKS7X4334;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.edwardday.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edwardday.HigherOrLower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,10 +286,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4EKS7X4334;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.edwardday.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edwardday.HigherOrLower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -284,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3042D6B1E44F98E00F9F870 /* Build configuration list for PBXProject "test" */ = {
+		F3042D6B1E44F98E00F9F870 /* Build configuration list for PBXProject "Higher Or Lower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3042D801E44F98E00F9F870 /* Debug */,
@@ -293,13 +308,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3042D821E44F98E00F9F870 /* Build configuration list for PBXNativeTarget "test" */ = {
+		F3042D821E44F98E00F9F870 /* Build configuration list for PBXNativeTarget "Higher Or Lower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3042D831E44F98E00F9F870 /* Debug */,
 				F3042D841E44F98E00F9F870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
